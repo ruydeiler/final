@@ -1,11 +1,12 @@
 /* esto es para darle colo al menu inocio y contacto*/
 
 const botonMenu = document.querySelector('.menuprincipal');
-const nav = document.querySelector('.nav');
+const nav = document.querySelector('header');
 
 botonMenu.addEventListener('click', () => {
   nav.classList.toggle('mostrar-menu');
 });
+
 
 /* esto es para cambiar la imagen de perfil*/
 

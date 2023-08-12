@@ -24,7 +24,12 @@
     color: #000;
   }
 
-
+.blue {
+  color: #26c0eb;
+  background-color: lightcyan;
+  border-radius: 12%;
+  padding: 20px;;
+}
 
 
 /*este es mi header en menu*/
@@ -48,7 +53,7 @@ header {
     left: 0;
 
     box-shadow: 6px 6px 10px #cecbcb;
-    background-color: #a1d2ba;
+    background-color: #26c0eb;
    
 }
 
@@ -138,7 +143,7 @@ li.menu-item :hover {
     left: var(--slider-offset,0.3em);
     top: 50%;
     transform: translateY(-50%);
-    background: linear-gradient(40deg,#ff0080,#ff8c00 70%);
+    background: linear-gradient(40deg,#ff0080,#c03a09 70%);
     ;
    transition: .4s;
   }
@@ -151,7 +156,7 @@ li.menu-item :hover {
     left: calc(100% - (var(--size-of-icon,1.4em) + var(--slider-offset,0.3em)));
     background: #303136;
     /* change the value of second inset in box-shadow to change the angle and direction of the moon  */
-    box-shadow: inset -3px -2px 5px -2px #8983f7, inset -10px -4px 0 0 #a3dafb;
+    box-shadow: inset -3px -2px 5px -2px #8983f7, inset -10px -4px 0 0 #26c0eb;
   }
 
 
@@ -262,7 +267,7 @@ a {
 }
 
 .descarga{
-    background-color: #a1d2ba;
+    background-color: #26c0eb;
     color:  #000000;
     font-size: 20px;
     display: inline-block;
@@ -276,7 +281,7 @@ a {
 
 
 .descargacv {
-    background: #a1d2ba;
+    background: #26c0eb;
     font-family: inherit;
     padding: 0.6em 1.3em;
     font-weight: 900;
@@ -299,14 +304,14 @@ a {
 /*terminamos la section inicio y empezamos contacto*/
 
 
-#contacto{
+#hablemos{
     min-height: 50vh;
     width: 100%;
     margin-top: 150px;
     margin-bottom: 30px;
     border-radius: 70px;
     background-color: #ffffff;
-    border: solid 10px;
+    border: solid 5px;
 }
 
 h3{
@@ -347,7 +352,7 @@ h3{
 
 
 footer {
-    background-color: #a1d2ba;
+    background-color: #26c0eb;
     color:  #fbfbfb;
     height: 90px;
 }

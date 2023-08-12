@@ -39,7 +39,7 @@ themeToggle.addEventListener('change', function() {
     body.classList.remove('light');
     body.classList.add('dark');
     h1.classList.remove('light');
-    h1.classList.add('dark');
+    h1.classList.add('blue');
     parrafo.classList.remove('light');
     parrafo.classList.add('dark');
     headeroscuro.classList.remove('header');
@@ -51,7 +51,7 @@ themeToggle.addEventListener('change', function() {
   } else {
     body.classList.remove('dark');
     body.classList.add('light');
-    h1.classList.remove('dark');
+    h1.classList.remove('blue');
     h1.classList.add('light');
     parrafo.classList.remove('dark');
     parrafo.classList.add('light');

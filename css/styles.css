@@ -31,7 +31,7 @@
 }
 
 .fondo3 {
-  background-image: url('/img/fondo3.jpeg');
+  background-image: url('../img/fondo3.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   line-height: 1.2;
@@ -81,11 +81,6 @@ nav li:last-child {
     margin-right: 20px;
 }
 
-/*ul#menu {
-    display: flex;     LEO: todo este codigo esta demas porque ya en la parte mobile estas asignando codigo al ul
-    font-size: 7px;
-}*/
-
 
 li.menu-item a {
     padding: 5px;
@@ -95,7 +90,7 @@ li.menu-item a {
 
 li.menu-item :hover {
     background-color: #fbfbfb;
-    color: #0f0f0f;
+    color: #25aaf2;
 }
 
 .menuprincipal {
@@ -177,7 +172,7 @@ li.menu-item :hover {
 
 body{
   
-  background-image: url('/img/fondo2.jpeg');
+  background-image: url('../img/fondo2.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   line-height: 1.2;

@@ -8,6 +8,8 @@ botonMenu.addEventListener('click', () => {
 });
 
 
+
+
 /* esto es para cambiar la imagen de perfil*/
 
 
@@ -43,9 +45,9 @@ themeToggle.addEventListener('change', function() {
     parrafo.classList.remove('light');
     parrafo.classList.add('dark');
     headeroscuro.classList.remove('header');
-    headeroscuro.classList.add('light');
+    headeroscuro.classList.add('plate');
     footero.classList.remove('footer');
-    footero.classList.add('dark');
+    footero.classList.add('plate');
 
 
   } else {
@@ -56,9 +58,9 @@ themeToggle.addEventListener('change', function() {
     parrafo.classList.remove('dark');
     parrafo.classList.add('light');
     headeroscuro.classList.add('header');
-    headeroscuro.classList.remove('light');
+    headeroscuro.classList.remove('plate');
     footero.classList.add('footer');
-    footero.classList.remove('dark');
+    footero.classList.remove('plate');
 
 
   }

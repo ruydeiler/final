@@ -15,27 +15,33 @@
 /*para el fondo oscuro*/
 
 .dark {
-    background-color: #000;
     color: #fff;
   }
   
 .light {
-    background-color: #fff;
+    background-color: #ededed;
     color: #000;
   }
 
 .blue {
-  color: #26c0eb;
-  background-color: lightcyan;
+  color: #08252d;
+  background-color: #fff;
   border-radius: 12%;
   padding: 20px;;
 }
 
+.fondo3 {
+  background-image: url('/img/fondo3.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.2;
+}
 
 /*este es mi header en menu*/
 
 .logo{
     max-height: 90px;
+    border-radius: 80%;
 }
 
 header {
@@ -45,7 +51,7 @@ header {
     align-items: center;
 
     width: 100%;
-    height: 90px;
+    height: 120px;
     padding: 10px 20px;
     position: fixed;
     z-index: 100;
@@ -163,14 +169,6 @@ li.menu-item :hover {
 
 
 
-
-
-
-
-
-
-
-
 /* esto es para darl estilo al interruptor*/
 
 /* hasta aqui estamos bien con el header y empezamos la section inicio*/
@@ -178,8 +176,11 @@ li.menu-item :hover {
 
 
 body{
-    background-color: #fbfefc;
-    line-height: 1.2;
+  
+  background-image: url('/img/fondo2.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.2;
 }
 
 
@@ -261,29 +262,18 @@ a {
 
 
 .inicio .p{
+  
     font-size:18px;
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
-.descarga{
-    background-color: #26c0eb;
-    color:  #000000;
-    font-size: 20px;
-    display: inline-block;
-    padding: 10px 20px;
-    border: solid 5px;
-    border-color: #fbfefc;
-    border-radius: 20px;
-    text-align: center;
-    text-decoration: none;
-}
 
 
 .descargacv {
-    background: #26c0eb;
+    background: #fcd743;
     font-family: inherit;
-    padding: 0.6em 1.3em;
+    padding: 0.8em 1.5em;
     font-weight: 900;
     font-size: 18px;
     border: 3px solid black;
@@ -305,7 +295,7 @@ a {
 
 
 #hablemos{
-    min-height: 50vh;
+    opacity: 0.8;
     width: 100%;
     margin-top: 150px;
     margin-bottom: 30px;
@@ -335,21 +325,35 @@ h3{
  .iconos ul{
     display: flex;
     margin-bottom: 100px;
-    flex-flow: row;
-    justify-content:center;
+    justify-content: space-between;
+    align-items: center;
+
+    
  }
+
 
  .iconos a img {
     max-width: 40%;
     height: auto;
-    
-    justify-content:space-between;
     align-items:center;
-
     margin-left: 30%;
-    
  }
 
+.icono {
+    border-radius:150%;
+   
+}
+
+
+ #contacto  {
+    opacity: 0.6;
+    width: 100%;
+    margin-top: 150px;
+    margin-bottom: 30px;
+    border-radius: 70px;
+    background-color: #ffffff;
+    border: solid 5px;
+ }
 
 footer {
     background-color: #26c0eb;
@@ -417,7 +421,7 @@ footer p{
     
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width:1024px){
     
     .menuprincipal {
         display: flex;

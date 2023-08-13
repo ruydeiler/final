@@ -36,8 +36,8 @@ const footero = document.querySelector ('footer')
 
 themeToggle.addEventListener('change', function() {
   if (this.checked) {
-    body.classList.remove('light');
-    body.classList.add('dark');
+    body.classList.remove('body');
+    body.classList.add('fondo3');
     h1.classList.remove('light');
     h1.classList.add('blue');
     parrafo.classList.remove('light');
@@ -49,8 +49,8 @@ themeToggle.addEventListener('change', function() {
 
 
   } else {
-    body.classList.remove('dark');
-    body.classList.add('light');
+    body.classList.remove('fondo3');
+    body.classList.add('body');
     h1.classList.remove('blue');
     h1.classList.add('light');
     parrafo.classList.remove('dark');
